@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import 'cards.css';
+:root {
+  --corprincipal: #97bfe7;
+  --white: #fff;
+  --blue: #004080;
+  --darkblue: #051b31;
+}
+
+* {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-weight: 800;
+  color: var(--brown);
+}
+
+p,h5 {
+  color: var(--darkblue);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  padding-top: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+}
+/* Azul menos vibrante para a navbar */
+.bg-blue-custom {
+  background-color: #004080; /* Azul menos vibrante */
+}
+
+/* Texto e ícones da navbar em branco para contraste */
+.navbar-brand, .nav-link {
+  color: #ffffff !important; /* Texto branco */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff; /* Texto branco */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #d3d3d3; /* Texto cinza claro ao passar o mouse */
+}
+
+.bg-blue-custom .dropdown-menu {
+  background-color: #004080; /* Substitua com a cor desejada */
+}
+
+.dropdown-item {
+  color: #000000; /* Texto preto */
+}
+
+.dropdown-item:hover {
+  background-color: #032649; /* Cor de fundo ao passar o mouse */
+  color: #fbfbfb; /* Texto preto ao passar o mouse */
+}
+
+/* Ícone do navbar-toggler em branco */
+.navbar-toggler-icon {
+  background-color: #ffffff; /* Ícone branco */
+}
+
+.italico{
+  font-style: italic;
+}
+/* From Uiverse.io by alexmaracinaru */ 
+.citacao {
+  width: 190px;
+  height: 264px;
+  background: var(--brown);
+  font-family: inherit;
+  position: relative;
+  border-radius: 8px;
+}
+
+.quote {
+  color: rgba(102, 88, 43, 0.801);
+  padding-left: 30px;
+  position: relative;
+}
+
+.body-text {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 60px 40px 0;
+  color: rgb(212, 190, 140);
+  position: absolute;
+  top: 20px;
+  left: 1px;
+  line-height: 23px;
+}
+
+.pic {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(212, 190, 140);
+  border-radius: 50%;
+}
+
+.btn-custom-blue {
+  background-color: #004080;
+  border-color: #002a50;
+  color: #fff;
+}
+
+.btn-custom-blue:hover {
+  background-color: #003060;
+  border-color: #001f3a;
+  color: #fff;
+}
+
+.icon{
+color: var(--darkblue);
+}
+
+@media (min-width: 340px) {
+  .celularcard__btn {
+    width: max-content;
+  }
+}

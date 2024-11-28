@@ -1,0 +1,125 @@
+/* From Uiverse.io by Creatlydev */ 
+.celularcard {
+    margin: auto;
+    width: min(300px, 100%);
+    background-color: #fefefe;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: #141417;
+  }
+  .celularcard__icon{
+    color: var(--brown);
+    padding: 0.7rem;
+    border-radius: 1rem;
+    background-color: #12356dcb;
+  }
+  .celularcard__hero {
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 1.5rem;
+    font-size: 0.875rem;
+    background-size: cover; 
+    background-position: center; 
+    height: 300px;
+    filter: grayscale(30%);
+  }
+  .celularcard__job-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin: 1rem 0rem 0.5rem;
+
+  }
+  .celularcard__hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    & h6{
+      padding: 0.7rem;
+      border-radius: 1rem;
+      background-color: #a8c6e5cb;
+    }
+  }
+  .celularcard__footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0.75rem;
+    row-gap: 1rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+  }
+  .celularcard__job{
+    display: flex;
+    flex-direction: column;
+    & p{
+      margin-bottom: 0rem;
+    }
+  }
+  @media (min-width: 340px) {
+    .celularcard__footer {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+  }
+  .celularcard__job-summary {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+  }
+
+  button-74:hover {
+    color: var(--rose);
+  }
+  
+  #actions .btn-primary {
+    background-color: #004080;
+    border-color: rgb(5, 22, 42);
+  }
+  
+  #actions .btn-outline-primary {
+    color: #004080;
+    border-color:rgb(5, 22, 42);
+  }
+  
+  #actions .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(23, 23, 117, 0.15);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card-title {
+    color: #1f2937; /* Texto escuro */
+  }
+  
+  .card-text {
+    color: #204286; /* Texto secundário suave */
+  }
+  
+  @media (min-width: 340px) {
+    .celularcard__btn {
+      width: max-content;
+    }
+  }
+  
